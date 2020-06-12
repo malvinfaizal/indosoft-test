@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  color: #A0A0A0;
+  line-height: 20px;
+}
+
+h1{
+  font-size: 26px;
+  color: #606060 ;
+}
+
+.btn-text{
+  font-size: 18px;
+  color: white;
+}
+
+.btn{
+  background-color: #1B477D ;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  opacity: 0.6;
+  transition: 0.5s;
+  outline: none;
+}
+
+.btn:hover {opacity: 1}
+.btn:active {opacity: 0.6}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
